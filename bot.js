@@ -96,15 +96,13 @@ client.on('ready', () => {
                           // konsol logları //
 
 
-      console.log ('_________________________________________');
-      console.log (`s.a lan girdim ben  : ${client.user.username}`);
-      console.log (`şu kadar sunucuda varım       : ${client.guilds.cache.size}`);
-      console.log (`kullanıcılar bunlar      : ${client.users.cache.size}`);
-      console.log (`Prefix             : ${ayarlar.prefix}`);
-      console.log (`durumum            : Bot Çevrimiçi!`);
-      console.log ('_________________________________________');
-      console.log ('Yapımcı            : Yermolai      ');
-      console.log ('Discordumuz        : https://discord.gg/YewmMTcsHh');
+      console.log (`İsmim                                  : ${client.user.username}`);
+      console.log (`şu kadar sunucuda varım                : ${client.guilds.cache.size}`);
+      console.log (`Bu kadar kullanıcı beni kullanıyo      : ${client.users.cache.size}`);
+      console.log (`Prefix                                 : ${ayarlar.prefix}`);
+      console.log (`durumum                                : Bot Çevrimiçi!`);
+      console.log ('Yapımcı                                : Yermolai ');
+      console.log ('Discordumuz                            : https://discord.gg/AYPRbE8HBU');
     
     });
 
